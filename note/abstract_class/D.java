@@ -1,5 +1,5 @@
 class D extends C{
-	private int x = 5;
+	public int x = 5;
 	public static void goo( int n ){//function overload
 		System.out.println( "D" + n + " goo" );
 	}
