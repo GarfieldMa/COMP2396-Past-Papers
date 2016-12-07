@@ -1,7 +1,7 @@
 import java.io.*;
 
 class A{
-	public static void main(String[] args) throws Exception{
+	public static void main(String[] args){
 		try{
 			String input;
 			FileReader fin = new FileReader("input.txt");
@@ -15,15 +15,15 @@ class A{
 				}
 			}	
 			reader.close();
-			writer.close();	
+			// writer.close();	
 		}
-		catch( Exception e ){
+		catch( IOException e ){
 			e.printStackTrace();
 		}
-		System.out.println( "meo~" );
-		finally{
+		// System.out.println( "meo~" );
+		// finally{
 
-		}
+		// }
 		// fin.close();
 		// fout.close();
 
